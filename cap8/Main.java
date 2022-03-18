@@ -4,7 +4,7 @@ public class Main {
   public static void main(String[] args) {
     // 勇者を生成
     Hero h1 = new Hero("ミナト"); // Heroクラスからインスタンスを生成し、変数h1に入れる
-    Hero h2 = new Hero("アサカ");
+    Hero h2 = new Hero();
 
     // お化けキノコを生成
     Matango m1 = new Matango();
