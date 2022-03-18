@@ -4,6 +4,12 @@ public class Hero {
   // クラスプロック内で宣言された変数を、Javaでは「フィールド」という
   String name; // 名前の宣言
   int hp;      // HPの宣言　　　
+  Sword sword;
+
+  public void  attack() {
+    System.out.println(this.name + "は、攻撃した！");
+    System.out.println("敵に5ポイントのダメージを与えた!");
+  }
 
   public void sleep() {
     this.hp = 100; // 自分自身のhpフィールド
