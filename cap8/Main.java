@@ -34,6 +34,7 @@ public class Main {
     // 冒険の始まり
     System.out.println("勇者" + h1.name + "を生み出しました！");
     System.out.println("現在の武器は" + h1.sword.name + "です");
+    System.out.println(h1.name + "のHPは、" + h1.hp + "です");
     h1.slip();
     m1.run();
     m2.run();
