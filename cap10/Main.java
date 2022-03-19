@@ -6,5 +6,7 @@ public class Main {
     sh.run();
 
     Matango m = new Matango();
+
+    Weapon w = new Weapon();
   }
 }
